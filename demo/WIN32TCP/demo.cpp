@@ -35,7 +35,8 @@
 
 /* ----------------------- Static variables ---------------------------------*/
 static USHORT   usRegInputStart = REG_INPUT_START;
-static USHORT   usRegInputBuf[REG_INPUT_NREGS];
+//static
+USHORT   usRegInputBuf[REG_INPUT_NREGS];
 static USHORT   usRegHoldingStart = REG_HOLDING_START;
 static USHORT   usRegHoldingBuf[REG_HOLDING_NREGS];
 
