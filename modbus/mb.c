@@ -397,7 +397,7 @@ eMBPoll( void )
                 }
                 if( ( eMBCurrentMode == MB_ASCII ) && MB_ASCII_TIMEOUT_WAIT_BEFORE_SEND_MS )
                 {
-                    vMBPortTimersDelay( MB_ASCII_TIMEOUT_WAIT_BEFORE_SEND_MS );
+                  //option  vMBPortTimersDelay( MB_ASCII_TIMEOUT_WAIT_BEFORE_SEND_MS );
                 }                
                 eStatus = peMBFrameSendCur( ucMBAddress, ucMBFrame, usLength );
             }
